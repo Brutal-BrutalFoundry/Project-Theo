@@ -2,13 +2,19 @@
 
 **Private personal system · Public engineering case study · No public release planned**
 
-Designed and built by Christopher M. ("Brutal"), the developer behind BrutalFoundry.
+Designed and built by Christopher M., the developer behind BrutalFoundry.
 
 Theo is a private, locally controlled AI system for my Windows workstation. Its goal is a general-purpose assistant combining robust research and multi-channel search, reasoning and problem-solving, writing and analysis, persistent project memory, computer assistance, and the assessment, repair, extension, and building of applications. Application development is a core capability within that broader goal.
 
 These are intended outcomes, not a claim that every workflow is already reliable. Local control includes internet-connected research; it does not mean an offline-only assistant.
 
 This repository presents the engineering work and its current limits. Theo's source, personal memory, configuration, and operational data remain private.
+
+## What I am building Theo for
+
+A typical intended task is to investigate a question within an ongoing software project: find the relevant local files, consult documentation, preserve the sources behind the answer, and assess the next action in the context of that project. Research, writing, and application work share the same local foundation rather than starting from an empty conversation each time.
+
+The case study follows the engineering needed to support that goal: keeping project context relevant, tracing evidence, controlling tool execution, and checking outcomes within the workstation's memory and GPU limits. The sections below distinguish demonstrated building blocks from workflows still being evaluated.
 
 ## The engineering problem
 
